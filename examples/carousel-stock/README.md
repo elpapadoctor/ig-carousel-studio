@@ -28,7 +28,7 @@ PEXELS_API_KEY=tu_key_aqui
    ```bash
    npm run carrusel -- examples/carousel-stock
    ```
-   Salida: `slides/slide-01.png` (1080×1080).
+   Salida: `slides/slide-01.png` (1080×1350).
 
 > Nota: este ejemplo renderiza a 1080×1350 — el HTML de origen está escrito para 1080 de alto, así que el output real puede tener espacio en blanco abajo.
 

@@ -1,6 +1,6 @@
 # Carrusel — 3 errores al hacer carruseles (y cómo arreglarlos)
 
-**Formato:** Instagram carousel · 5 slides · 1080×1080
+**Formato:** Instagram carousel · 5 slides · 1080×1350
 **Variante:** (a) typographic — texto puro, $0, sin imágenes
 **Objetivo:** educativo + autoridad
 **Estructura narrativa:** hook → 3 puntos (errores) → CTA (de `docs/estructuras-narrativas.md`)

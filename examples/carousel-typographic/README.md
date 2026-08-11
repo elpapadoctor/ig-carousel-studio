@@ -6,7 +6,7 @@ end-to-end con la **variante (a) typographic** (texto puro, sin imágenes, $0).
 ## Qué demuestra
 
 - **Contrato del pipeline:** `slides/source/slide-NN.html` → `slides/slide-NN.png`.
-  El TS solo screenshea con Playwright a 1080×1080; el diseño vive 100% en el HTML.
+  El TS solo screenshea con Playwright a 1080×1350; el diseño vive 100% en el HTML.
 - **HTML self-contained:** cada slide trae sus brand tokens inline en `<style>` y los
   `@font-face` (Geist + Geist Mono vía CDN jsdelivr) — sin links a `brand.css`, para
   que funcione desde cualquier ruta.
@@ -26,7 +26,7 @@ npm run carrusel -- examples/carousel-typographic
 
 (También funciona el alias en inglés `npm run carousel -- ...`.)
 
-Salida: `slides/slide-01.png` … `slide-05.png`, cada uno 1080×1080.
+Salida: `slides/slide-01.png` … `slide-05.png`, cada uno 1080×1350.
 Tiempo: ~5–15s · Costo: $0 (todo local, sin generación AI).
 
 > Nota: este ejemplo renderiza a 1080×1350 — el HTML de origen está escrito para 1080 de alto, así que el output real puede tener espacio en blanco abajo.

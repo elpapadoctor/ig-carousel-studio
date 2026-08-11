@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# forge-studio-lite — setup. Idempotente: seguro re-correr.
+# ig-carousel-studio — setup. Idempotente: seguro re-correr.
 set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$REPO_DIR"
@@ -10,7 +10,7 @@ ok(){   printf '\033[32m✓\033[0m %s\n' "$*"; }
 warn(){ printf '\033[33m!\033[0m %s\n' "$*"; }
 fail(){ printf '\033[31m✗\033[0m %s\n' "$*" >&2; exit 1; }
 
-bold "forge-studio-lite — setup"
+bold "ig-carousel-studio — setup"
 
 # 1. Node >= 18 (necesita fetch global + --env-file)
 command -v node >/dev/null 2>&1 || fail "Node.js no encontrado. Instala Node 18+ desde https://nodejs.org"
@@ -41,7 +41,7 @@ fi
 bold "Listo. Pruébalo:"
 cat <<'EOF'
   npm run carrusel -- examples/carousel-typographic
-  # → PNGs en examples/carousel-typographic/slides/slide-NN.png (1080×1080)
+  # → PNGs en examples/carousel-typographic/slides/slide-NN.png (1080×1350)
 
   Personaliza brand/brand.json + brand/voice.json + brand/brand.css,
   y luego pídele a Claude Code:  /carrusel <tu tema>

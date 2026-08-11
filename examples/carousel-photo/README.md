@@ -11,7 +11,7 @@ Antes de renderizar, pon una foto cuadrada en el banco con el nombre que el slid
 referencia:
 
 ```bash
-# copia cualquier foto cuadrada (idealmente 1080×1080 o mayor) como founder.png
+# copia cualquier foto cuadrada (idealmente 1080×1350 o mayor) como founder.png
 cp /ruta/a/tu-foto.jpg brand/photos/founder.png
 ```
 
@@ -27,7 +27,7 @@ Desde la raíz del repo:
 npm run carrusel -- examples/carousel-photo
 ```
 
-Salida: `slides/slide-01.png` (1080×1080). En consola verás
+Salida: `slides/slide-01.png` (1080×1350). En consola verás
 `⤷ photo founder.png (from brand/photos)` confirmando la copia.
 
 > Nota: este ejemplo renderiza a 1080×1350 — el HTML de origen está escrito para 1080 de alto, así que el output real puede tener espacio en blanco abajo.
