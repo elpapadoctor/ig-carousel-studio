@@ -45,6 +45,9 @@ visual — logo, paleta, tipografía y hasta un catálogo de estructuras narrati
 adaptado a tu industria — conversando contigo, sin rellenar un formulario. 
 
 Una vez configurado con el comando `/carrusel` generas carruseles reales usando tu marca.
+El copy (slides y caption) pasa por un scrub anti-"tells" de IA y termina con un set de
+hashtags de tamaño mixto, no una lista genérica — ver `docs/humanizer.md` y
+`docs/hashtag-strategy.md`.
 
 > El valor de un carrusel está en **la historia** (la estructura narrativa) y en **tu
 > marca** (tus tokens), no en efectos. El agente escribe los slides; el TypeScript solo
@@ -116,6 +119,8 @@ src/pipelines/carousel.ts          # el motor (Playwright screenshot)
 brand/                             # tu marca — starter neutro, lo completa /setup-marca
 docs/estructuras-narrativas.md     # 35 estructuras narrativas genéricas
 docs/estructuras-<tu-nicho>.md     # lo genera /setup-marca para tu industria
+docs/humanizer.md                  # scrub de "tells" de IA — slides y caption
+docs/hashtag-strategy.md           # receta de hashtags con tamaño mixto (3-5)
 examples/                          # ejemplos corribles, incluido uno de catálogo de nicho
 ```
 
@@ -125,6 +130,9 @@ examples/                          # ejemplos corribles, incluido uno de catálo
   de **Carlos Domínguez** (MIT) — este proyecto parte de ahí.
 - Estructuras narrativas genéricas adaptadas de
   [`santmun/historias-ig-skill`](https://github.com/santmun/historias-ig-skill).
+- El scrub de "tells" de IA (`docs/humanizer.md`) y la receta de hashtags con tamaño
+  mixto (`docs/hashtag-strategy.md`) están adaptados de
+  [`sergebulaev/instagram-skills`](https://github.com/sergebulaev/instagram-skills) (MIT).
 - Caso de uso real que probó esta herramienta:
   [@elpapadoctor](https://instagram.com/elpapadoctor) en Instagram.
 - Construido para manejarse desde [Claude Code](https://claude.com/claude-code).
@@ -140,7 +148,9 @@ examples/                          # ejemplos corribles, incluido uno de catálo
 Carousel engine + one command (`/setup-marca`) that builds your visual identity —
 logo, palette, typography, and even a narrative-structure catalog tailored to your
 industry — through conversation, not a form. Then `/carrusel` generates real carousels
-with that brand.
+with that brand. The copy (slides and caption) runs through an AI-tell scrub and ends
+with a sized hashtag set, not a generic list — see `docs/humanizer.md` and
+`docs/hashtag-strategy.md`.
 
 > A carousel's value is in **the story** (the narrative structure) and **your brand**
 > (your tokens), not in effects. The agent writes the slides; the TypeScript just
@@ -212,6 +222,8 @@ src/pipelines/carousel.ts          # the engine (Playwright screenshot)
 brand/                             # your brand — neutral starter, /setup-marca fills it in
 docs/estructuras-narrativas.md     # 35 generic narrative structures
 docs/estructuras-<your-niche>.md   # /setup-marca generates this for your industry
+docs/humanizer.md                  # scrubs AI "tells" — slide copy and caption
+docs/hashtag-strategy.md           # sized (3-5) hashtag recipe
 examples/                          # runnable examples, including a niche-catalog sample
 ```
 
@@ -221,6 +233,9 @@ examples/                          # runnable examples, including a niche-catalo
   by **Carlos Domínguez** (MIT) — this project builds on it.
 - Generic narrative structures adapted from
   [`santmun/historias-ig-skill`](https://github.com/santmun/historias-ig-skill).
+- The AI-tell scrub (`docs/humanizer.md`) and the sized hashtag recipe
+  (`docs/hashtag-strategy.md`) are adapted from
+  [`sergebulaev/instagram-skills`](https://github.com/sergebulaev/instagram-skills) (MIT).
 - Real-world account that tested this tool:
   [@elpapadoctor](https://instagram.com/elpapadoctor) on Instagram.
 - Built to run from [Claude Code](https://claude.com/claude-code).

@@ -23,6 +23,7 @@
     "¿Qué piensas? Te leo en comentarios."
   ],
   "avoid": [
+    "guiones largos (—/–) usados como puntuación en el copy generado — usar '..', coma, o punto y aparte",
     "revolutionary / revolucionario / cutting-edge",
     "leverage / synergy / disrupt / ecosystem",
     "best-in-class / AI-powered (como cualidad principal)",
@@ -32,6 +33,7 @@
     "templates IA-slop: gradiente azul-morado, Inter sobre blanco, 3 cards iguales",
     "parejas tipográficas genéricas de IA (ej. Lora + Public Sans) sin criterio propio",
     "afirmaciones, cifras o estudios inventados — solo usar datos que tú proveas o confirmes explícitamente",
-    "fotos generadas por IA que aparenten ser una persona real — usar fotos propias o stock royalty-free (Pexels/Unsplash) en su lugar"
+    "fotos generadas por IA que aparenten ser una persona real — usar fotos propias o stock royalty-free (Pexels/Unsplash) en su lugar",
+    "catálogo completo de vocabulario/frases a evitar: ver docs/humanizer.md"
   ]
 }

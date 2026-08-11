@@ -19,11 +19,10 @@ pasa directo a la autoría del outline. Usa `AskUserQuestion` solo cuando hay un
 **bifurcación real** o falta algo material:
 
 - **Objetivo** ambiguo (lead magnet / educativo / prueba social / urgencia / humanización).
-- **Estructura narrativa** no clara → si `brand/brand.json` tiene `"niche": "salud"`,
-  propón primero una de [`estructuras-medicas.md`](./estructuras-medicas.md); si el
-  usuario dice que ninguna calza, cae a una de
-  [`estructuras-narrativas.md`](./estructuras-narrativas.md) según el objetivo, igual
-  que para cualquier otra marca.
+- **Estructura narrativa** no clara → si `brand/brand.json` tiene un `niche` definido,
+  propón primero una de `docs/estructuras-<niche>.md` (lo genera `/setup-marca` para esa
+  industria); si el usuario dice que ninguna calza, o no hay `niche` definido, cae a una
+  de [`estructuras-narrativas.md`](./estructuras-narrativas.md) según el objetivo.
 - **# de slides** no especificado (default 7: hook → 5 puntos → CTA).
 
 Una pregunta enfocada, no cinco. No conviertas el intake en burocracia.
@@ -63,18 +62,32 @@ cuesta nada — cambia el HTML y vuelve a correr `npm run carrusel`.
 
 Cuando el usuario aprueba el render ("Está bien, ciérralo"), el trabajo no termina en
 los PNG. Genera también el texto para publicar debajo del carrusel, en el mismo
-mensaje o inmediatamente después:
+mensaje o inmediatamente después. Estructura tipo "caption writer" — el gancho hace
+todo el trabajo antes del corte de Instagram, el cuerpo se lee de un vistazo, y hay
+un solo CTA:
 
-- Gancho/intro (1-2 líneas, coherente con el hook de la slide-01).
-- Resumen en viñetas de los puntos del `STORYBOARD.md` — no repitas el texto de las
-  slides palabra por palabra, es el resumen para quien no vaya a deslizar las 7.
-- CTA de cierre, tomado de `voice.json` → `cta_examples` (o coherente con `cta_style`).
+- **Gancho (primeros ~125 caracteres)**: tiene que sostenerse solo — Instagram esconde
+  el resto del caption tras "más". Coherente con el hook de la slide-01, pero no
+  necesita ser copia exacta; puede adelantar el número o la tensión más fuerte del
+  carrusel.
+- **Cuerpo skimmable**: resumen en líneas cortas (no un párrafo corrido) de los puntos
+  del `STORYBOARD.md` — no repitas el texto de las slides palabra por palabra, es el
+  resumen para quien no vaya a deslizar las 7.
+- **Un solo CTA de cierre**, tomado de `voice.json` → `cta_examples` (o coherente con
+  `cta_style`). Nunca un cierre muerto tipo "¿qué opinas?" — que pida guardar, mandar a
+  alguien específico, o seguir, con una razón nombrada.
 - **Si el carrusel usó fuentes con cita (DOI, guías clínicas, estudios, etc.)**: bloque
   de referencias completo al final — mismo formato que las citas que dio el usuario,
   nunca resumido ni truncado. Si no hubo fuentes citadas (carrusel de opinión/consejo
   general), este bloque no aplica.
-- Hashtags relevantes al tema y a la marca, si `brand.json`/`voice.json` no dice lo
-  contrario.
+- **Hashtags**: set de 3-5, con tamaño mixto (nicho/medio/amplio) — nunca una lista
+  larga de tags genéricos. Ver [`hashtag-strategy.md`](./hashtag-strategy.md) para la
+  receta completa.
+
+**Antes de entregar el copy final — y antes de mostrar el `STORYBOARD.md` para
+aprobación en el paso 2 — corre el scrub de [`humanizer.md`](./humanizer.md)** sobre
+ambos: el copy de las slides y el caption. Aplica siempre (nunca se salta por apuro ni
+porque "ya está bueno"); cambia forma, no significado.
 
 No inventes datos nuevos en el copy que no estén ya en el `STORYBOARD.md` o en las
 fuentes del usuario — misma regla de `voice.json` → `avoid` que rige el copy de las

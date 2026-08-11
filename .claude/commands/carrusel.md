@@ -73,6 +73,12 @@ TS pipeline:
 - **Sin voseo.** `brand/voice.json` ahora tiene un campo `grammar` — respétalo. Nunca
   "necesitás/podés/tenés", siempre "necesitas/puedes/tienes" (o la forma neutra que
   pida `voice.json`).
+- **Sin "tells" de IA.** Antes de mostrar el `STORYBOARD.md` para aprobación, corre el
+  scrub de [`docs/humanizer.md`](../../docs/humanizer.md) sobre el copy de cada slide —
+  guiones largos usados como puntuación, vocabulario tipo "aprovechar/optimizar/
+  revolucionario", frases muertas ("en el mundo actual", "no se trata solo de X, se
+  trata de Y"), listas de tres sin datos concretos. Mismo scrub se corre otra vez sobre
+  el copy de publicación (ver `docs/flujo-guiado.md` → paso 4).
 
 ## Variantes visuales de slide
 
