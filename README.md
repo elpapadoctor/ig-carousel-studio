@@ -12,7 +12,7 @@ la variante por defecto.
 
 <br>
 
-<img src="docs/assets/showcase.png" alt="Cinco slides de carrusel generadas por la herramienta" width="100%">
+<img src="docs/assets/showcase.png" alt="Siete slides de carrusel generadas por la herramienta" width="100%">
 
 <br>
 
