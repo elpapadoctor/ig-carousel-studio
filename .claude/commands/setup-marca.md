@@ -26,9 +26,9 @@ Pregunta agrupado (no interrogatorio de a una pregunta por vez):
 
 ## Paso 2 — Logo
 
-Pide el archivo del logo. Mismo flujo que ya funciona en la práctica: "dejalo en
-Downloads o Desktop y decime el nombre exacto del archivo" — buscalo con `find` una
-vez que el usuario confirme el nombre, copialo a `brand/photos/logo.png`. Si no tiene
+Pide el archivo del logo. Mismo flujo que ya funciona en la práctica: "déjalo en
+Downloads o Desktop y dime el nombre exacto del archivo" — búscalo con `find` una
+vez que el usuario confirme el nombre, cópialo a `brand/photos/logo.png`. Si no tiene
 logo todavía, sigue sin él — no bloquea el resto del setup; `brand.json.logo` queda en
 `null`.
 

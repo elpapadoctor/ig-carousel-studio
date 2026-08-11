@@ -116,7 +116,7 @@ examples/                          # ejemplos corribles, incluido uno de catálo
 
 ### Licencia
 
-[MIT](LICENSE) — usalo, modificalo y compartilo libremente.
+[MIT](LICENSE) — úsalo, modifícalo y compártelo libremente.
 
 ---
 
