@@ -9,7 +9,7 @@
   "vibe": "Una línea: ¿qué se siente hablar contigo?",
   "audience": "¿Para quién es este carrusel? Sé específico (rol, nivel, dolor).",
   "language": "es",
-  "grammar": "Opcional — si tu idioma tiene variantes (ej. español: tuteo/voseo/neutro), especificá cuál usar acá. /setup-marca te lo pregunta si corresponde. Sin este campo, el agente no asume ninguna variante en particular.",
+  "grammar": "Opcional — si tu idioma tiene variantes (ej. español: tuteo/voseo/neutro), especifica cuál usar acá. /setup-marca te lo pregunta si corresponde. Sin este campo, el agente no asume ninguna variante en particular.",
   "hooks": [
     "Tu mejor frase de una línea — la slide 01 arranca con esta.",
     "Una segunda opción de hook.",

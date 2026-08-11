@@ -60,7 +60,7 @@ npm install && npx playwright install chromium && cp .env.example .env
 
 ### Quickstart
 
-1. **Configurá tu marca** (una sola vez):
+1. **Configura tu marca** (una sola vez):
    ```
    /setup-marca
    ```
@@ -69,7 +69,7 @@ npm install && npx playwright install chromium && cp .env.example .env
    listo para pegarle a Claude Design), y generar un catálogo de estructuras
    narrativas para tu industria específica.
 
-2. **Generá un carrusel:**
+2. **Genera un carrusel:**
    ```
    /carrusel 3 errores al elegir tu nicho, educativo, 7 slides
    ```
@@ -77,7 +77,7 @@ npm install && npx playwright install chromium && cp .env.example .env
    y te entrega el copy de publicación con hashtags y (si citaste fuentes) referencias
    completas.
 
-¿Sin Claude Code? Probá el ejemplo genérico directo:
+¿Sin Claude Code? Prueba el ejemplo genérico directo:
 ```bash
 npm run carrusel -- examples/carousel-typographic
 ```

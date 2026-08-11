@@ -16,7 +16,7 @@
     "danger":       "#EF4444"
   },
   "typography": {
-    "headline": "Reemplaza — ver /setup-marca, evitá parejas genéricas tipo Lora+Public Sans",
+    "headline": "Reemplaza — ver /setup-marca, evita parejas genéricas tipo Lora+Public Sans",
     "headline_editorial": "Opcional: una segunda tipografía para tratamiento claro/editorial si quieres mezclar variantes",
     "body":     "Karla",
     "mono":     "Karla"

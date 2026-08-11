@@ -81,7 +81,7 @@ puntos typographic → CTA con foto).
 
 ### (a) Typographic — texto puro
 El skeleton de abajo es un ejemplo completo y funcional (fondo oscuro + tipografía
-póster Anton + keyword highlight) — no una paleta obligatoria. Corré `/setup-marca`
+póster Anton + keyword highlight) — no una paleta obligatoria. Corre `/setup-marca`
 primero y este skeleton va a usar tus propios tokens de `brand.css`, no estos. $0, sin
 imágenes.
 
@@ -128,8 +128,8 @@ Kebab-case, máx 6 palabras. Ej: *"3 errores al hacer carruseles"* → `3-errore
 
 El ejemplo de abajo (fondo oscuro + tipografía póster Anton) es un caso real, validado
 a mano slide por slide hasta el tamaño máximo que no se pisa — sirve como punto de
-partida funcional. Corré [`/setup-marca`](setup-marca.md) para generar tus propios
-`brand.json`/`brand.css` y adaptá los tokens de este skeleton a los tuyos.
+partida funcional. Corre [`/setup-marca`](setup-marca.md) para generar tus propios
+`brand.json`/`brand.css` y adapta los tokens de este skeleton a los tuyos.
 
 ```html
 <!doctype html>
@@ -178,7 +178,7 @@ partida funcional. Corré [`/setup-marca`](setup-marca.md) para generar tus prop
 **Layout por rol** (detalle completo en `docs/estructuras-narrativas.md`) — los
 tamaños de abajo son los que funcionaron para el ejemplo con Anton a este
 `line-height`; con otra tipografía no aplican igual. Usalos como punto de partida,
-después renderizá y ajustá según el método explicado más abajo:
+después renderiza y ajusta según el método explicado más abajo:
 
 - **hook (slide-01)**: eyebrow/badge arriba (`font-size: 24px`, pill de color según
   tema, `margin-bottom: 24px`) → título (`font-family: var(--font-display)`,
@@ -201,8 +201,8 @@ fuente/autoridad/cita · `var(--accent)` dato destacado.
 
 **El método, no solo el número.** Instagram muestra el carrusel a ~470–600px de ancho
 en el feed — texto chico en el render de 1080px se lee mal al escalar hacia abajo. Para
-cualquier tipografía que elijas: escribí el body real, subí el `font-size` hasta que
-casi se toque con el título o el borde, renderizá, mirá el PNG, y bajá si se pisa. Los
+cualquier tipografía que elijas: escribe el body real, sube el `font-size` hasta que
+casi se toque con el título o el borde, renderiza, mira el PNG, y baja si se pisa. Los
 números de este ejemplo (168/160/54px con Anton) son el resultado de haber hecho
 exactamente eso — no una tabla universal.
 
