@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎠 ig-carousel-studio
+# ig-carousel-studio
 
 ### Generador de carruseles de Instagram — del texto al PNG, con tu marca, sin diseñar a mano
 
@@ -8,7 +8,9 @@
 
 Slides **1080×1350** consistentes con tu marca, escritos en HTML + CSS y capturados por
 Playwright.
+<br>
 **100 % local · determinístico · $0.** 
+<br>
 Sin necesidad de generación de imágenes con IA en la variante por defecto.
 
 <br>
