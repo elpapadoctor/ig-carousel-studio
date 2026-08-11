@@ -4,7 +4,7 @@
 `/setup-marca` generó para una cuenta de salud/medicina durante el desarrollo de esta
 herramienta — está acá para mostrar el nivel de detalle y el formato que debería tener
 el catálogo que `/setup-marca` genere para **tu** nicho, sea cual sea. Si tu marca es de
-salud, podés usarlo como punto de partida; si es de cualquier otra industria,
+salud, puedes usarlo como punto de partida; si es de cualquier otra industria,
 `/setup-marca` va a generar uno nuevo específico para la tuya siguiendo este mismo
 formato de tabla.
 

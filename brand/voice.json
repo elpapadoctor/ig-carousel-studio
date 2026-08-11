@@ -1,12 +1,12 @@
 {
   "name": "TU MARCA",
-  "tone": "Describe tu tono en 2-4 atributos con guion (ej: cercano-directo, experto-sin-jerga). Corré /setup-marca.",
+  "tone": "Describe tu tono en 2-4 atributos con guion (ej: cercano-directo, experto-sin-jerga). Corre /setup-marca.",
   "tone_attributes": [
     "Reemplaza cada línea con una regla concreta de tono para tu marca",
-    "Ej: diagnóstico, no crítica — explicás el problema sin moralizar",
+    "Ej: diagnóstico, no crítica — explicas el problema sin moralizar",
     "Ej: confianza serena — autoridad sin pose"
   ],
-  "vibe": "Una línea: ¿qué se siente hablar con vos?",
+  "vibe": "Una línea: ¿qué se siente hablar contigo?",
   "audience": "¿Para quién es este carrusel? Sé específico (rol, nivel, dolor).",
   "language": "es",
   "grammar": "Opcional — si tu idioma tiene variantes (ej. español: tuteo/voseo/neutro), especificá cuál usar acá. /setup-marca te lo pregunta si corresponde. Sin este campo, el agente no asume ninguna variante en particular.",
@@ -18,9 +18,9 @@
   "cta_style": "directo, no pushy — invita o pide compartir, no presiona",
   "cta_examples": [
     "Si te sirvió, guárdalo.",
-    "Segime para más.",
+    "Sígueme para más.",
     "El link está en mi bio.",
-    "¿Qué pensás? Te leo en comentarios."
+    "¿Qué piensas? Te leo en comentarios."
   ],
   "avoid": [
     "revolutionary / revolucionario / cutting-edge",
@@ -31,7 +31,7 @@
     "barato / fácil / increíble",
     "templates IA-slop: gradiente azul-morado, Inter sobre blanco, 3 cards iguales",
     "parejas tipográficas genéricas de IA (ej. Lora + Public Sans) sin criterio propio",
-    "afirmaciones, cifras o estudios inventados — solo usar datos que vos proveas o confirmes explícitamente",
+    "afirmaciones, cifras o estudios inventados — solo usar datos que tú proveas o confirmes explícitamente",
     "fotos generadas por IA que aparenten ser una persona real — usar fotos propias o stock royalty-free (Pexels/Unsplash) en su lugar"
   ]
 }

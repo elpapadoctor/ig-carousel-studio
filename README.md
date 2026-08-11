@@ -84,7 +84,7 @@ npm run carrusel -- examples/carousel-typographic
 
 ### Las 3 variantes de slide
 
-Podés mezclarlas en un mismo carrusel.
+Puedes mezclarlas en un mismo carrusel.
 
 | Variante | Qué es | Necesita |
 |---|---|---|
@@ -95,7 +95,7 @@ Podés mezclarlas en un mismo carrusel.
 ### Estructura del repo
 
 ```
-.claude/commands/setup-marca.md    # onboarding: arma tu brand/ conversando con vos
+.claude/commands/setup-marca.md    # onboarding: arma tu brand/ conversando contigo
 .claude/commands/carrusel.md       # el generador de carruseles en sí
 src/pipelines/carousel.ts          # el motor (Playwright screenshot)
 brand/                             # tu marca — starter neutro, lo completa /setup-marca
