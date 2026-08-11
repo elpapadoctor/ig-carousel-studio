@@ -31,12 +31,13 @@ Sin necesidad de generación de imágenes con IA en la variante por defecto.
 
 Motor de carruseles + un comando (`/setup-marca`) que te arma tu propia identidad
 visual — logo, paleta, tipografía y hasta un catálogo de estructuras narrativas
-adaptado a tu industria — conversando con vos, no rellenando un formulario. Después,
-`/carrusel` genera carruseles reales con esa marca.
+adaptado a tu industria — conversando contigo, sin rellenar un formulario. 
+
+Una vez configurado con el comando `/carrusel` generas carruseles reales usando tu marca.
 
 > El valor de un carrusel está en **la historia** (la estructura narrativa) y en **tu
 > marca** (tus tokens), no en efectos. El agente escribe los slides; el TypeScript solo
-> screenshotea. Determinístico: el mismo HTML produce el mismo PNG siempre.
+> screenshotea. Es determinístico: el mismo HTML produce el mismo PNG siempre.
 
 ### Instalación
 
