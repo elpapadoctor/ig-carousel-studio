@@ -7,8 +7,9 @@
 **[English version below ↓](#english)**
 
 Slides **1080×1350** consistentes con tu marca, escritos en HTML + CSS y capturados por
-Playwright. **100 % local · determinístico · $0.** Sin generación de imágenes con IA en
-la variante por defecto.
+Playwright.
+**100 % local · determinístico · $0.** 
+Sin necesidad de generación de imágenes con IA en la variante por defecto.
 
 <br>
 
