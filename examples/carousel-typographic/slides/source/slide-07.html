@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;500;600;700&display=swap');
+  :root {
+    --bg-dark: #0E3A57;
+    --accent: #D9642C;
+    --text: #FFFFFF; --muted: rgba(255,255,255,0.85);
+    --font-display: 'Anton', 'Arial Narrow', sans-serif;
+    --font-body: 'Karla', -apple-system, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; background: var(--bg-dark); color: var(--text); font-family: var(--font-body); overflow: hidden; -webkit-font-smoothing: antialiased; }
+  .slide { position: relative; width: 1080px; height: 1350px; padding: 96px; display: flex; flex-direction: column; justify-content: center; }
+  .handle { position: absolute; bottom: 72px; left: 96px; background: rgba(14,58,87,0.55); backdrop-filter: blur(6px); border-radius: 999px; padding: 10px 22px; }
+  .handle span { font-weight: 600; font-size: 22px; color: #fff; }
+  .title { font-family: var(--font-display); font-weight: 400; font-size: 96px; line-height: 0.96; text-transform: uppercase; max-width: 900px; margin-bottom: 32px; }
+  blockquote { font-family: var(--font-display); font-weight: 400; font-size: 68px; line-height: 1.1; text-transform: uppercase; color: var(--accent); max-width: 900px; margin-bottom: 40px; }
+  .body-line { font-size: 36px; line-height: 1.4; color: var(--muted); max-width: 780px; margin-bottom: 140px; }
+</style>
+</head>
+<body>
+  <div class="slide">
+    <div class="title">La regla simple</div>
+    <blockquote>"Agua tibia, sin jabón, y secar a toques."</blockquote>
+    <div class="body-line">Si te sirvió, guárdalo — y comparte antes de que alguien siga usando toallitas perfumadas.</div>
+    <div class="handle"><span>@elpapadoctor</span></div>
+  </div>
+</body>
+</html>

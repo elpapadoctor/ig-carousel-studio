@@ -100,17 +100,19 @@ sobre la zona oscura inferior. Úsala para hook/CTA con presencia humana o slide
   `.photo` → `.duotone` → `.fade` → `.grain` → `.content`.
 
 ### (c) Stock — imágenes ilustrativas royalty-free
-Para slides ilustrativos sin foto propia. Un solo flujo con dos fuentes (campo `source`),
-ambas **publicables royalty-free**:
+Para slides ilustrativos sin foto propia. Un solo flujo con cuatro fuentes (campo
+`source`), todas **publicables royalty-free**:
 - **Config:** escribe `<project>/stock-queries.json` →
-  `{ "source": "pexels"|"unsplash", "queries":[...], "count":6, "max_per_query":15, "prefix":"stock", "orientation":"square" }`.
+  `{ "source": "openverse"|"wikimedia"|"pexels"|"unsplash", "queries":[...], "count":6, "max_per_query":15, "prefix":"stock", "orientation":"square" }`.
 - **Corre:** `npm run scrape-images -- ./carousels/<slug>`. Descarga a
   `slides/source/<prefix>-NN.jpg` + escribe `slides/source/<prefix>-manifest.json` (atribución + fuente + licencia).
   Los slides las referencian por **bare filename** (`<img class="photo" src="stock-01.jpg">`) — misma estética
   foto+gradiente que (b) (duotone + fade + grain encima homogenizan imágenes dispares).
-- **`source: "pexels"` (default) o `"unsplash"` — license-clear, free para uso comercial.**
-  Requiere `PEXELS_API_KEY` o `UNSPLASH_ACCESS_KEY` en `.env` (gratis:
-  pexels.com/api · unsplash.com/developers). El manifest guarda fotógrafo + URL para atribución.
+- **`source: "openverse"` (default) o `"wikimedia"` — license-clear, sin ninguna key.**
+  `"pexels"` o `"unsplash"` quedan disponibles para quien ya tenga una key (gratis:
+  pexels.com/api · unsplash.com/developers). El manifest guarda fotógrafo + URL +
+  licencia por imagen para atribución (openverse/wikimedia varían la licencia por
+  imagen; pexels/unsplash tienen una licencia única por plataforma).
 
 ## Paso a paso
 

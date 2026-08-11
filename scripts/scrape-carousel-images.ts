@@ -1,11 +1,14 @@
 #!/usr/bin/env tsx
 /**
  * scrape-carousel-images.ts — /carrusel variant (c): source royalty-free,
- * publish-grade illustrative images for slides. Two sources via the `source` field:
- *   • "pexels"  (default) — Pexels License, free for commercial use. Needs PEXELS_API_KEY.
- *   • "unsplash"          — Unsplash License, free to use.          Needs UNSPLASH_ACCESS_KEY.
+ * publish-grade illustrative images for slides. Four sources via the `source` field:
+ *   • "openverse" (default) — CC-licensed, filtered to commercial+modification-safe. No key.
+ *   • "wikimedia"           — Wikimedia Commons, per-image free license.           No key.
+ *   • "pexels"              — Pexels License, free for commercial use.  Needs PEXELS_API_KEY.
+ *   • "unsplash"            — Unsplash License, free to use.            Needs UNSPLASH_ACCESS_KEY.
  *
- * Free keys: pexels.com/api  ·  unsplash.com/developers
+ * The default requires no signup at all. Free keys for the optional two:
+ * pexels.com/api  ·  unsplash.com/developers
  *
  * Usage:
  *   npm run scrape-images -- <project-dir>
@@ -13,17 +16,19 @@
  *
  * Reads <project-dir>/stock-queries.json:
  *   {
- *     "source": "pexels",        // "pexels" | "unsplash" (default "pexels")
+ *     "source": "openverse",     // "openverse" | "wikimedia" | "pexels" | "unsplash" (default "openverse")
  *     "queries": ["minimalist workspace desk", "soft morning light office"],
  *     "count": 6,                // how many images to download total (default 6)
  *     "max_per_query": 15,       // results per query (default 15)
  *     "prefix": "stock",         // slide-source filename prefix (default "stock")
- *     "orientation": "square"    // landscape | portrait | square (optional bias)
+ *     "orientation": "square"    // landscape | portrait | square (optional bias; openverse/pexels/unsplash only)
  *   }
  *
  * Downloads into <project>/slides/source/<prefix>-NN.jpg (slides reference them by
  * bare filename, same convention as bank photos) + writes
- * slides/source/<prefix>-manifest.json with attribution + license per image.
+ * slides/source/<prefix>-manifest.json with attribution + license per image (per-image
+ * license for openverse/wikimedia, since it varies by image; blanket license for
+ * pexels/unsplash).
  */
 
 import { readFile } from "node:fs/promises";
@@ -45,7 +50,7 @@ async function main(): Promise<void> {
   }
   const cfg = JSON.parse(await readFile(cfgPath, "utf8")) as {
     queries?: string[];
-    source?: "pexels" | "unsplash"; // default "pexels"
+    source?: StockProvider; // default "openverse"
     count?: number;
     max_per_query?: number;
     prefix?: string;
@@ -57,10 +62,10 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const source = cfg.source ?? "pexels";
+  const source = cfg.source ?? "openverse";
   const prefix = cfg.prefix ?? "stock";
 
-  // pexels | unsplash — royalty-free, publish-grade, license-clear.
+  // openverse | wikimedia | pexels | unsplash — royalty-free, publish-grade, license-clear.
   console.log(`▸ Searching ${queries.length} query(ies) via ${source} (royalty-free)…`);
   const all: StockImage[] = [];
   for (const q of queries) {

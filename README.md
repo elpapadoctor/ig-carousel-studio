@@ -90,7 +90,7 @@ Puedes mezclarlas en un mismo carrusel.
 |---|---|---|
 | **(a) Typographic** | Texto puro, sin imágenes. | nada |
 | **(b) Foto + gradiente** | Tus fotos (`brand/photos/`) con wash de marca (duotone + fade + grain). | tus fotos |
-| **(c) Stock royalty-free** | Imágenes de Pexels/Unsplash, publicables. | `PEXELS_API_KEY` o `UNSPLASH_ACCESS_KEY` gratis |
+| **(c) Stock royalty-free** | Imágenes de Openverse/Wikimedia Commons (sin key) o Pexels/Unsplash (con key), publicables. | nada — o una key gratis si prefieres Pexels/Unsplash |
 
 ### Estructura del repo
 
@@ -178,7 +178,7 @@ You can mix them within one carousel.
 |---|---|---|
 | **(a) Typographic** | Pure text, no images. | nothing |
 | **(b) Photo + gradient** | Your own photos (`brand/photos/`) with a brand-colored wash (duotone + fade + grain). | your photos |
-| **(c) Royalty-free stock** | Pexels/Unsplash images, publishable. | free `PEXELS_API_KEY` or `UNSPLASH_ACCESS_KEY` |
+| **(c) Royalty-free stock** | Openverse/Wikimedia Commons images (no key) or Pexels/Unsplash (with a key), publishable. | nothing — or a free key if you prefer Pexels/Unsplash |
 
 ### Repo structure
 

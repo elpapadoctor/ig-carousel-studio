@@ -31,6 +31,12 @@ examples/**/slides/source/*.jpeg
 examples/**/slides/source/*.webp
 examples/**/slides/source/*-manifest.json
 
+# Excepción: assets reales del caso @elpapadoctor que sí van versionados —
+# son el ejemplo, no output regenerable de un usuario.
+!examples/carousel-photo/slides/source/s7-foam.jpg
+!examples/carousel-stock/slides/source/stock-01.jpg
+!examples/carousel-stock/slides/source/stock-manifest.json
+
 # PNGs renderizados de los ejemplos (regenerables — se conserva el HTML/JSON fuente)
 examples/**/slides/*.png
 
