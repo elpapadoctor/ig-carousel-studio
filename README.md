@@ -12,7 +12,7 @@ Playwright.
 Sin necesidad de generación de imágenes con IA en la variante por defecto.
 
 <br>
-<img src="docs/assets/slide-01.png" alt="Slide 1" width="10%"><img src="docs/assets/slide-02.png" alt="Slide 2" width="10%"><img src="docs/assets/slide-03.png" alt="Slide 3" width="10%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="10%"><img src="docs/assets/slide-05.png" alt="Slide 5" width="10%"><img src="docs/assets/slide-06.png" alt="Slide 6" width="10%"><img src="docs/assets/slide-07.png" alt="Slide 7" width="10%">
+<img src="docs/assets/slide-01.png" alt="Slide 1" width="15%"><img src="docs/assets/slide-02.png" alt="Slide 2" width="15%"><img src="docs/assets/slide-03.png" alt="Slide 3" width="15%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="15%"><img src="docs/assets/slide-05.png" alt="Slide 5" width="15%"><img src="docs/assets/slide-06.png" alt="Slide 6" width="15%"><img src="docs/assets/slide-07.png" alt="Slide 7" width="15%">
 
 
 
