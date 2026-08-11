@@ -1,0 +1,51 @@
+{
+  "name": "TU MARCA",
+  "tagline": "Reemplaza esto por tu promesa en una línea.",
+  "positioning": "Describe a quién le hablás y qué le aportás. Esto orienta el tono de cada slide. Corré /setup-marca para completarlo con vos.",
+  "colors": {
+    "primary":      "#2563EB",
+    "primary_deep": "#1E40AF",
+    "background_dark": "#1E293B",
+    "accent":       "#60A5FA",
+    "secondary":    "#0EA5E9",
+    "background":   "#F7F5F0",
+    "surface":      "#FFFFFF",
+    "text":         "#1E293B",
+    "muted":        "#64748B",
+    "success":      "#10B981",
+    "danger":       "#EF4444"
+  },
+  "typography": {
+    "headline": "Reemplaza — ver /setup-marca, evitá parejas genéricas tipo Lora+Public Sans",
+    "headline_editorial": "Opcional: una segunda tipografía para tratamiento claro/editorial si querés mezclar variantes",
+    "body":     "Karla",
+    "mono":     "Karla"
+  },
+  "logo":      null,
+  "logo_dark": null,
+  "style": "Describe en 1-2 frases el mood visual que buscás (ej. 'cálido y editorial', 'póster/viral', 'minimalista corporativo'). Corré /setup-marca para completarlo.",
+  "spacing": {
+    "radius": 12,
+    "unit": 8
+  },
+  "niche": null,
+  "safe_words": [
+    "REEMPLAZA con las palabras que tu marca usa de verdad"
+  ],
+  "avoid_words": [
+    "revolutionary / revolucionario",
+    "cutting-edge",
+    "AI-powered (como cualidad principal)",
+    "best-in-class",
+    "leverage",
+    "synergy",
+    "disrupt",
+    "ecosystem",
+    "unlock your potential",
+    "Act now!",
+    "Limited time!",
+    "barato",
+    "fácil",
+    "increíble"
+  ]
+}
