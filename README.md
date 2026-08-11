@@ -12,8 +12,12 @@ Playwright.
 Sin necesidad de generación de imágenes con IA en la variante por defecto.
 
 <br>
+<img src="docs/assets/slide-01.png" alt="Slide 1" width="100%"><img src="docs/assets/slide-02.png" alt="Slide 2" width="100%"><img src="docs/assets/slide-03.png" alt="Slide 3" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%"><img src="docs/assets/slide-04.png" alt="Slide 4" width="100%">
 
-<img src="docs/assets/showcase.png" alt="Siete slides de carrusel generadas por la herramienta" width="100%">
+
+
+
+
 
 <br>
 
